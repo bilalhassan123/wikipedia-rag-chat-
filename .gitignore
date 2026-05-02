@@ -1,0 +1,56 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+
+# Coverage HTML output (default pytest-cov location); committed report lives under coverage/
+htmlcov/
+
+# Node / frontend
+node_modules/
+.vite/
+*.log
+npm-debug.log*
+yarn-error.log*
+frontend/dist/
+frontend/coverage/
+
+# Docker
+.docker/
+
+# IDE / editor
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific (do not republish the brief)
+VentureDive_TakeHome_Test.pdf
